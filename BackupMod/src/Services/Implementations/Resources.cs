@@ -37,7 +37,7 @@ public sealed class Resources : IResources
             _filesystem.Directory.GetParentDirectoryPath(GameIO.GetSaveGameDir()));
 
     public string GetWorldsDirectoryPath() => 
-        _filesystem.Directory.GetParentDirectoryPath(GameIO.GetWorldDir());
+        _filesystem.Directory.GetParentDirectoryPath(Contextual.FindActiveWorldLocation().FullPath);
             
 
     public string GetMd5HashForWorld(string worldName)
