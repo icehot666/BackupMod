@@ -29,7 +29,7 @@ public class WorldService : IWorldService
     
     public World GetCurrentWorld() => GameManager.Instance.World;
 
-    public string GetCurrentWorldDirectoryPath() => PathHelper.FixFolderPathSeparators(GameIO.GetWorldDir());
+    public string GetCurrentWorldDirectoryPath() => PathHelper.FixFolderPathSeparators(Contextual.FindActiveWorldLocation().FullPath);
 
     public string GetCurrentWorldName() => _filesystem.Directory.GetDirectoryName(GetCurrentWorldDirectoryPath());
     
