@@ -2,8 +2,8 @@
 <xml>
     <Name value="ntaklive_BackupMod" />
     <DisplayName value="Backup mod" />
-    <Version value="2.4.0.0" />
-    <Description value="This modlet makes it possible to automatically backup your game saves" />
-    <Author value="ntaklive" />
-    <Website value="https://github.com/ntaklive/BackupMod" />
+    <Version value="2.4.1.0" />
+    <Description value="Automatically backs up and restores game saves. Updated for 7 Days to Die V3." />
+    <Author value="ntaklive; V3 port by icehot666" />
+    <Website value="https://github.com/icehot666/BackupMod" />
 </xml>
